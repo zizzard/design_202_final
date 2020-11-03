@@ -1,3 +1,18 @@
+body {
+  /* background: #aa4b6b;
+  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); */
+  background: #222;
+}
+
+h1 {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -8,44 +23,65 @@
   width: calc(100% - 40px);
 }
 
-.nav-button {
-  width: 100px;
+.nav-button,
+.nav-button-hidden {
+  width: 200px;
+  height: 60px;
 }
 
-h1 {
-  text-align: center;
+.nav-button {
+  border: none;
+  border-radius: 100px;
+
+  background: rgba(60, 60, 60, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+
+  color: white;
+  font-size: 20px;
+}
+
+.nav-button:hover {
+  cursor: pointer;
 }
 
 .home-container {
   width: 50%;
   max-width: 800px;
-  min-width: 300px;
-  margin: 0 auto;
+  min-width: 400px;
+  margin: 20px auto;
+
+  background: rgba(60, 60, 60, 0.6);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: white;
 }
 
-.home-copy {
-  padding-bottom: 20px;
-}
-
-.home-start {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-}
-
-.home-link {
-  margin: 0 auto;
+.home-container h3,
+.home-container h4 {
   text-align: center;
-  width: 100px;
-  height: 50px;
-  display: block;
-  border: 1px solid black;
+}
+
+.home-container h1 {
+  margin-bottom: 5px;
+}
+
+.home-container h3 {
+  margin-top: 0px;
+}
+
+.home-hr {
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255, 0.6);
+  margin: 0px auto 20px auto;
+  border-radius: 100px;
 }
 
 .home-nav-links {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .home-nav-row {
@@ -53,6 +89,13 @@ h1 {
   flex-direction: row;
   margin: 0 auto;
   padding-bottom: 10px;
+  width: 300px;
+}
+
+.flex-vertical-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .home-nav-number {
@@ -61,10 +104,15 @@ h1 {
   display: flex;
   justify-content: center;
   margin: auto 0;
-  border: 1px solid black;
-  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin-right: 40px;
+  color: white;
+  font-size: 16px;
 }
+
 .home-nav-text {
+  color: white;
 }
 
 .page-content {

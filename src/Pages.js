@@ -13,7 +13,6 @@ import Page12 from "./Pages/Page12";
 import Page13 from "./Pages/Page13";
 import Page14 from "./Pages/Page14";
 import Page15 from "./Pages/Page15";
-import PageHeader from "./Pages/PageHeader";
 
 const pageNames = [
   "Environment Setup",
@@ -53,66 +52,21 @@ const options = [
 ];
 
 let pages = [
-  <>
-    <PageHeader pageName={pageNames[0]} />
-    <Page1 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[1]} />
-    <Page2 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[2]} />
-    <Page3 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[3]} />
-    <Page4 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[4]} />
-    <Page5 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[5]} />
-    <Page6 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[6]} />
-    <Page7 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[7]} />
-    <Page8 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[8]} />
-    <Page9 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[9]} />
-    <Page10 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[10]} />
-    <Page11 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[11]} />
-    <Page12 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[12]} />
-    <Page13 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[13]} />
-    <Page14 />
-  </>,
-  <>
-    <PageHeader pageName={pageNames[14]} />
-    <Page15 />
-  </>,
+  <Page1 pageName={pageNames[0]} />,
+  <Page2 pageName={pageNames[1]} />,
+  <Page3 pageName={pageNames[2]} />,
+  <Page4 pageName={pageNames[3]} />,
+  <Page5 pageName={pageNames[4]} />,
+  <Page6 pageName={pageNames[5]} />,
+  <Page7 pageName={pageNames[6]} />,
+  <Page8 pageName={pageNames[7]} />,
+  <Page9 pageName={pageNames[8]} />,
+  <Page10 pageName={pageNames[9]} />,
+  <Page11 pageName={pageNames[10]} />,
+  <Page12 pageName={pageNames[11]} />,
+  <Page13 pageName={pageNames[12]} />,
+  <Page14 pageName={pageNames[13]} />,
+  <Page15 pageName={pageNames[14]} />,
 ];
 
 export { pages, options, pageNames };

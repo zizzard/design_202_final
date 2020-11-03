@@ -4,37 +4,36 @@ import { pageNames } from "../Pages";
 
 export default function Home() {
   return (
-    <div className="home-container">
-      <h1>Home</h1>
-      <div className="home-copy">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales
-        nibh ultricies risus rhoncus, vitae ultrices orci efficitur. In eu eros
-        arcu. In hac habitasse platea dictumst. Mauris fermentum cursus tortor
-        quis posuere. Nunc quis rhoncus magna, ut placerat ante. In convallis
-        purus sem, id pretium ex euismod sit amet. Nulla facilisi. Proin
-        facilisis accumsan faucibus. Nam ultricies justo non turpis dictum,
-        vitae hendrerit lacus hendrerit. Morbi non varius velit, a viverra
-        tellus. Vestibulum vel aliquam magna, vitae vulputate sem. Maecenas
-        cursus eros ut ligula dignissim, nec egestas nunc tempor. Cras accumsan
-        dui ac urna gravida vehicula. Suspendisse ipsum lectus.
-      </div>
-      <NavLink to="/1" className="home-link">
-        <div className="home-start">Get Started!</div>
-      </NavLink>
-      <hr />
-      <div className="home-nav-links">
-        {pageNames.map((pageName, index) => {
-          let idx = index + 1;
-          return (
-            <div key={idx}>
-              <NavLink to={`/${idx}`} className="home-nav-row">
-                <div className="home-nav-number">{idx}</div>
-                <div className="home-nav-text">{pageName}</div>
+    <>
+      <div className="home-container">
+        <h1>Introduction to Web Development</h1>
+        <h3>By Zach Izzard</h3>
+        <h4>Jump to</h4>
+        <div className="home-hr" />
+        <div className="home-nav-links">
+          {pageNames.map((pageName, index) => {
+            let idx = index + 1;
+            return (
+              <NavLink key={idx} to={`/${idx}`} className="home-nav-row">
+                <div className="home-nav-number">
+                  <div className="flex-vertical-center">{idx}</div>
+                </div>
+                <div className="flex-vertical-center">
+                  <div className="home-nav-text">{pageName}</div>
+                </div>
               </NavLink>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+      <div className="nav">
+        <div className="nav-button-hidden"></div>
+        <div className="nav-button-hidden"></div>
+
+        <NavLink to="/1">
+          <button className="nav-button">get started</button>
+        </NavLink>
+      </div>
+    </>
   );
 }
