@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, useHistory } from "react-router-dom";
 import { pages } from "./Pages";
 import history from "./History";
@@ -9,6 +9,10 @@ export default function Content() {
   let routerHistory = useHistory();
   const { id } = useParams();
   const [pageNumber, setPageNumber] = useState(parseInt(id));
+
+  useEffect(() => {
+    setPageNumber(parseInt(id));
+  }, [id]);
 
   function prev() {
     let nextPage = pageNumber - 1;
