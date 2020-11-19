@@ -79,7 +79,6 @@ body {
 .home-nav-row {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
   padding-bottom: 10px;
   width: 300px;
 }
@@ -96,15 +95,15 @@ body {
   display: flex;
   justify-content: center;
   margin: auto 0;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 20px;
   margin-right: 40px;
-  color: white;
+  color: black;
   font-size: 16px;
 }
 
 .home-nav-text {
-  color: white;
+  color: black;
 }
 
 .page-content {
@@ -117,4 +116,26 @@ body {
 
 .bold {
   font-weight: bold;
+}
+
+.inline {
+  display: inline;
+}
+
+.left {
+  padding-left: 10px;
+}
+
+.page-copy {
+  padding-top: 15px;
+}
+
+.jump-to-header {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }

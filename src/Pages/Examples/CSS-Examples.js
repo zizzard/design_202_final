@@ -27,15 +27,15 @@ export function HeightWidth() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{heightwidthStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{heightwidthCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="heightwidth-green">This is the green div</div>
               <div className="heightwidth-red">This is the red div</div>
@@ -97,15 +97,15 @@ export function Display() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{displayStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{displayCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="display-inline-first">
                 This is the first inline div
@@ -153,15 +153,15 @@ export function Position() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{positionStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{positionCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="position-static">static</div>
               <div className="position-relative">relative</div>
@@ -211,15 +211,15 @@ export function PaddingMargin() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{paddingmarginStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{paddingmarginCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="padding-first">
                 Filling up the container with text to show what padding looks
@@ -262,15 +262,15 @@ export function Color() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{colorStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{colorCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="color-green">This div has green text</div>
               <div className="color-red">This div has green text</div>
@@ -316,15 +316,15 @@ export function Background() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{backgroundStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{backgroundCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="background-green">This is the green div</div>
               <div className="background-red">This is the red div</div>
@@ -372,15 +372,15 @@ export function Border() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{borderStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{borderCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="border-green">
                 This div has a solid 1px green border
@@ -434,15 +434,15 @@ export function BorderRadius() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{borderradiusStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{borderradiusCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="border-radius-green"></div>
               <div className="border-radius-red"></div>
@@ -481,15 +481,15 @@ export function Font() {
         <p className="bold">Let us look at an example of this CSS property:</p>
         <div className="flex-split">
           <div className="html-preview">
-            <div className="html-file">index.html</div>:
+            <div className="html-file">index.html</div>
             <div className="html-text">{fontStr}</div>
           </div>
           <div className="css-preview">
-            <div className="css-file">style.css</div>:
+            <div className="css-file">style.css</div>
             <div className="css-text">{fontCSS}</div>
           </div>
           <div className="html-render">
-            <div className="html-file">html body</div>:
+            <div className="html-file">html body</div>
             <div className="html-body">
               <div className="font-green">
                 This div uses Helvetica Neue at 16px

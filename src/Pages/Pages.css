@@ -51,6 +51,8 @@ h1 {
   background: #ccc;
   padding: 2px 5px 3px 5px;
   border-radius: 5px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
 }
 
 .child {
@@ -67,4 +69,8 @@ h1 {
 
 .page-group {
   padding-bottom: 10px;
+}
+
+.testimonial {
+  padding-left: 18px;
 }

@@ -76,15 +76,15 @@ export default function Table() {
     <>
       <div className="flex-split">
         <div className="html-preview">
-          <div className="html-file">index.html</div>:
+          <div className="html-file">index.html</div>
           <div className="html-text">{htmlStr}</div>
         </div>
         <div className="css-preview">
-          <div className="css-file">style.css</div>:
+          <div className="css-file">style.css</div>
           <div className="css-text">{cssStr}</div>
         </div>
         <div className="html-render">
-          <div className="html-file">html body</div>:
+          <div className="html-file">html body</div>
           <div className="html-body">
             <table className="table">
               <tr>

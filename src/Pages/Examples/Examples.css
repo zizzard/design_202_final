@@ -27,7 +27,7 @@
 .html-file,
 .css-file {
   display: inline;
-  background: #ccc;
+  background: white;
   padding: 2px 5px 3px 5px;
   border-radius: 5px;
 }
@@ -38,6 +38,8 @@
   padding: 5px 5px;
   border-radius: 5px;
   background: white;
+  font-family: "Courier New", monospace;
+  font-size: 16px;
 }
 
 .html-render {

@@ -1,6 +1,13 @@
 import React from "react";
 import "./Pages.css";
 import CSSElement from "./CSSElement";
+import {
+  FlexDirection,
+  FlexWrap,
+  JustifyContent,
+  AlignItems,
+  AlignContent,
+} from "./Examples/Flex-Examples";
 
 export default function Page7({ pageName }) {
   return (
@@ -65,6 +72,7 @@ export default function Page7({ pageName }) {
                 />
               </ul>
             </p>
+            <FlexDirection />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -95,6 +103,7 @@ export default function Page7({ pageName }) {
                 />
               </ul>
             </p>
+            <FlexWrap />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -132,6 +141,7 @@ export default function Page7({ pageName }) {
                 />
               </ul>
             </p>
+            <JustifyContent />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -165,6 +175,7 @@ export default function Page7({ pageName }) {
                 />
               </ul>
             </p>
+            <AlignItems />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -209,6 +220,7 @@ export default function Page7({ pageName }) {
                 />
               </ul>
             </p>
+            <AlignContent />
           </li>
         </ol>
         <p className="page-body-text">

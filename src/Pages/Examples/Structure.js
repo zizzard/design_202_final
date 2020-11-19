@@ -17,11 +17,11 @@ export default function Structure() {
     <>
       <div className="flex-split">
         <div className="html-preview">
-          <div className="html-file">index.html</div>:
+          <div className="html-file">index.html</div>
           <div className="html-text">{htmlStr}</div>
         </div>
         <div className="html-render">
-          <div className="html-file">html body</div>:
+          <div className="html-file">html body</div>
           <div className="html-body">
             Anything placed inside the body tags will be displayed on your
             webpage

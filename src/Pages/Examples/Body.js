@@ -37,11 +37,11 @@ export default function Body() {
     <>
       <div className="flex-split">
         <div className="html-preview">
-          <div className="html-file">index.html</div>:
+          <div className="html-file">index.html</div>
           <div className="html-text">{htmlStr}</div>
         </div>
         <div className="html-render">
-          <div className="html-file">html body</div>:
+          <div className="html-file">html body</div>
           <div className="html-body">
             <div>
               This text sits inside the body tag!

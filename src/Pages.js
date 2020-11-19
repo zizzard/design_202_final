@@ -11,6 +11,24 @@ import Page10 from "./Pages/Page10";
 import Page11 from "./Pages/Page11";
 import Page12 from "./Pages/Page12";
 
+const pageNames1 = [
+  "Environment Set Up Pt. 1",
+  "Environment Set Up Pt. 2",
+  "HTML Structure Tags",
+  "HTML Internal Body Tags",
+  "Introduction to CSS",
+  "Important CSS Styles",
+];
+
+const pageNames2 = [
+  "Flex Boxes",
+  "HTML Table",
+  "Linking Pages",
+  "Hosting",
+  "Web Development Tips",
+  "Other Resources",
+];
+
 const pageNames = [
   "Environment Set Up Pt. 1",
   "Environment Set Up Pt. 2",
@@ -57,4 +75,4 @@ let pages = [
   <Page12 pageName={pageNames[11]} />,
 ];
 
-export { pages, options, pageNames };
+export { pages, options, pageNames, pageNames1, pageNames2 };
