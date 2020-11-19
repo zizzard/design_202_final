@@ -1,6 +1,8 @@
 import React from "react";
 import "./Pages.css";
 
+import skeleton from "../skeleton.zip";
+
 export default function Page1({ pageName }) {
   return (
     <div className="page-container">
@@ -126,10 +128,7 @@ export default function Page1({ pageName }) {
           <li className="page-list-header-number">
             <p className="page-list-header">
               Project Skeleton Code:{" "}
-              <a
-                className="page-link"
-                href="https://learntocode.zachizzard.com/skeleton.zip"
-              >
+              <a className="page-link" href={skeleton}>
                 Download here
               </a>
             </p>
