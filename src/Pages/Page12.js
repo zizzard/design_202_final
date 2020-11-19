@@ -1,6 +1,5 @@
 import React from "react";
 import "./Pages.css";
-import HTMLHighlightText from "./HTMLHighlightText";
 
 export default function Page12({ pageName }) {
   return (
