@@ -1,6 +1,7 @@
 import React from "react";
 import "./Pages.css";
 import HTMLHighlightText from "./HTMLHighlightText";
+import Table from "./Examples/Table";
 
 export default function Page8({ pageName }) {
   return (
@@ -64,9 +65,12 @@ export default function Page8({ pageName }) {
             </p>
           </li>
         </ol>
-        <p className="page-body-text">
-          Let us look at an example HTML and how we can style it using CSS
-          styles.
+        <p className="page-example-text">
+          <p className="bold">
+            Let us look at an example HTML table and how we can style it using
+            CSS styles:
+          </p>
+          <Table />
         </p>
       </div>
     </div>

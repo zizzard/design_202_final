@@ -1,6 +1,7 @@
 import React from "react";
 import "./Pages.css";
 import HTMLHighlightText from "./HTMLHighlightText";
+import Structure from "./Examples/Structure";
 
 export default function Page3({ pageName }) {
   return (
@@ -73,18 +74,6 @@ export default function Page3({ pageName }) {
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
-              The <HTMLHighlightText text="<title>" /> tag:{" "}
-            </p>
-            <p className="page-list-content-text child">
-              The <p className="highlight-text">title</p> tag goes inside the{" "}
-              <p className="highlight-text">head</p> tag and defines the title
-              of the webpage. This element gets rendered along the title bar of
-              your web browser in the tab that the page is open in. This element
-              is required in all HTML documents. the html page.
-            </p>
-          </li>
-          <li className="page-list-header-number">
-            <p className="page-list-header">
               The <HTMLHighlightText text="<link>" /> tag:{" "}
             </p>
             <p className="page-list-content-text child">
@@ -111,9 +100,11 @@ export default function Page3({ pageName }) {
             </p>
           </li>
         </ol>
-        <p className="page-body-text">
-          Let us look at an example HTML file containing these tags and what is
-          rendered in your webpage below.
+        <p className="page-example-text">
+          <p className="bold">
+            Let us look at an example HTML file and how it renders:
+          </p>
+          <Structure />
         </p>
       </div>
     </div>

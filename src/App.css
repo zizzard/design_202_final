@@ -110,3 +110,11 @@ body {
 .page-content {
   text-align: center;
 }
+
+.page-example-text {
+  margin-top: 40px;
+}
+
+.bold {
+  font-weight: bold;
+}

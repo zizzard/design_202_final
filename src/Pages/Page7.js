@@ -178,9 +178,9 @@ export default function Page7({ pageName }) {
               and there is additional space along the cross axis.
               <ul className="child-list">
                 <CSSElement
-                  property={"align-content: normal"}
+                  property={"align-content: stretch"}
                   standard={true}
-                  text="The flex content is placed in at its default position."
+                  text="Stretch each row to take up the extra space in the container."
                 />
                 <CSSElement
                   property={"align-content: flex-start"}
@@ -206,11 +206,6 @@ export default function Page7({ pageName }) {
                   property={"align-content: space-evenly"}
                   standard={false}
                   text="Align each row with even visual spacing between each row and the edge of the container."
-                />
-                <CSSElement
-                  property={"align-content: stretch"}
-                  standard={false}
-                  text="Stretch each row to take up the extra space in the container."
                 />
               </ul>
             </p>

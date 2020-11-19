@@ -1,6 +1,7 @@
 import React from "react";
 import "./Pages.css";
 import HTMLHighlightText from "./HTMLHighlightText";
+import Body from "./Examples/Body";
 
 export default function Page4({ pageName }) {
   return (
@@ -196,9 +197,11 @@ export default function Page4({ pageName }) {
             </p>
           </li>
         </ol>
-        <p className="page-body-text">
-          Let us look at an example HTML file containing these tags and what is
-          rendered in your webpage below.
+        <p className="page-example-text">
+          <p className="bold">
+            Let us look at an example HTML file and how it renders:
+          </p>
+          <Body />
         </p>
       </div>
     </div>

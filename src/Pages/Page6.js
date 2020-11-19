@@ -3,6 +3,18 @@ import "./Pages.css";
 import HTMLHighlightText from "./HTMLHighlightText";
 import CSSElement from "./CSSElement";
 
+import {
+  HeightWidth,
+  Display,
+  Position,
+  PaddingMargin,
+  Color,
+  Background,
+  Border,
+  BorderRadius,
+  Font,
+} from "./Examples/CSS-Examples";
+
 export default function Page6({ pageName }) {
   return (
     <div className="page-container">
@@ -49,6 +61,7 @@ export default function Page6({ pageName }) {
                 </li>
               </ul>
             </p>
+            <HeightWidth />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -90,6 +103,7 @@ export default function Page6({ pageName }) {
                 />
               </ul>
             </p>
+            <Display />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -104,7 +118,8 @@ export default function Page6({ pageName }) {
               <p className="highlight-text">height</p> and{" "}
               <p className="highlight-text">width</p> you can set its position
               using fixed-length units (generally preferred), or with
-              percentage-based units (not as commonly used).
+              percentage-based units (not as commonly used). We will look at an
+              example of how these properties are used in the following section.
             </p>
           </li>
           <li className="page-list-header-number">
@@ -137,6 +152,7 @@ export default function Page6({ pageName }) {
                 />
               </ul>
             </p>
+            <Position />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -181,6 +197,7 @@ export default function Page6({ pageName }) {
                 </li>
               </ul>
             </p>
+            <PaddingMargin />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -207,6 +224,7 @@ export default function Page6({ pageName }) {
                 </li>
               </ul>
             </p>
+            <Color />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -218,6 +236,7 @@ export default function Page6({ pageName }) {
               conventions as the <p className="highlight-text">color</p>{" "}
               property.
             </p>
+            <Background />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -256,6 +275,7 @@ export default function Page6({ pageName }) {
                 </li>
               </ul>
             </p>
+            <Border />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -274,6 +294,7 @@ export default function Page6({ pageName }) {
                 />
               </ul>
             </p>
+            <BorderRadius />
           </li>
           <li className="page-list-header-number">
             <p className="page-list-header">
@@ -294,6 +315,7 @@ export default function Page6({ pageName }) {
                 follow this link
               </a>
             </p>
+            <Font />
           </li>
         </ol>
       </div>

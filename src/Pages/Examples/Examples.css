@@ -1,0 +1,58 @@
+.flex-split {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.html-preview,
+.css-preview {
+  white-space: pre-wrap;
+  padding: 5px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  padding: 10px 5px 5px 5px;
+  min-width: 25%;
+  height: fit-content;
+}
+
+.html-preview {
+  margin-right: 10px;
+}
+
+.css-preview {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.html-file,
+.css-file {
+  display: inline;
+  background: #ccc;
+  padding: 2px 5px 3px 5px;
+  border-radius: 5px;
+}
+
+.html-text,
+.css-text {
+  margin: 10px 5px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.html-render {
+  white-space: pre-wrap;
+  padding: 5px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  padding: 10px 5px 5px 5px;
+  min-width: 25%;
+  height: fit-content;
+}
+
+.html-body {
+  margin: 10px 5px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background: white;
+}
