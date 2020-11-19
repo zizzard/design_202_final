@@ -223,12 +223,6 @@ export default function Page7({ pageName }) {
             <AlignContent />
           </li>
         </ol>
-        <p className="page-body-text">
-          There is a lot of information here so make sure you take your time to
-          digest it all. Flex boxes might take a bit of time to fully grasp, but
-          they allow you to build beautifully designed websites incredibly
-          easily.
-        </p>
       </div>
     </div>
   );

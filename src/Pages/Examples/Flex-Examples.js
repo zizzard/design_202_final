@@ -663,15 +663,17 @@ export function AlignContent() {
       <div className="page-example-text child">
         <p className="bold">Let us look at an example of this flex property:</p>
         <div className="flex-split">
-          <div className="html-preview">
-            <div className="html-file">index.html</div>
-            <div className="html-text">{aligncontentStr}</div>
+          <div className="flex-preview-container">
+            <div className="html-preview-aligncontent">
+              <div className="html-file">index.html</div>
+              <div className="html-text">{aligncontentStr}</div>
+            </div>
+            <div className="css-preview-aligncontent">
+              <div className="css-file">style.css</div>
+              <div className="css-text">{aligncontentCSS}</div>
+            </div>
           </div>
-          <div className="css-preview">
-            <div className="css-file">style.css</div>
-            <div className="css-text">{aligncontentCSS}</div>
-          </div>
-          <div className="html-render">
+          <div className="html-render-aligncontent">
             <div className="html-file">html body</div>
             <div className="html-body">
               <div id="aligncontent">

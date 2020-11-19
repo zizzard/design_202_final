@@ -40,6 +40,8 @@ h1 {
   background: #ccc;
   color: #2b2b2b;
   padding: 2px 5px 3px 5px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
 }
 
 .page-list-content-text {

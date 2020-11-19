@@ -13,14 +13,7 @@
   padding: 10px 5px 5px 5px;
   min-width: 25%;
   height: fit-content;
-}
-
-.html-preview {
-  margin-right: 10px;
-}
-
-.css-preview {
-  margin-left: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
   margin-right: 10px;
 }
 
@@ -30,6 +23,9 @@
   background: white;
   padding: 2px 5px 3px 5px;
   border-radius: 5px;
+  font-weight: 700;
+  color: #888888;
+  margin-left: 5px;
 }
 
 .html-text,
@@ -50,6 +46,7 @@
   padding: 10px 5px 5px 5px;
   min-width: 25%;
   height: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .html-body {
@@ -57,4 +54,36 @@
   padding: 5px 5px;
   border-radius: 5px;
   background: white;
+}
+
+.flex-preview-container {
+  min-width: 40%;
+}
+
+.html-preview-aligncontent,
+.css-preview-aligncontent {
+  white-space: pre-wrap;
+  padding: 5px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  padding: 10px 5px 5px 5px;
+
+  height: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+}
+
+.html-preview-aligncontent {
+  margin-bottom: 15px;
+}
+
+.html-render-aligncontent {
+  white-space: pre-wrap;
+  padding: 5px;
+  border-radius: 5px;
+  background: #f7f7f7;
+  padding: 10px 5px 5px 5px;
+  min-width: 50%;
+  height: fit-content;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }

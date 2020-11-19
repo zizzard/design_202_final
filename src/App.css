@@ -1,6 +1,7 @@
 body {
   font-family: "Helvetica Neue";
   font-size: 18px;
+  color: #2b2b2b;
 }
 
 .nav {
@@ -81,6 +82,7 @@ body {
   flex-direction: row;
   padding-bottom: 10px;
   width: 300px;
+  text-decoration: none;
 }
 
 .flex-vertical-center {
@@ -95,15 +97,15 @@ body {
   display: flex;
   justify-content: center;
   margin: auto 0;
-  border: 1px solid black;
-  border-radius: 20px;
+  border: 1px solid #2b2b2b;
+  border-radius: 4px;
   margin-right: 40px;
-  color: black;
+  color: #2b2b2b;
   font-size: 16px;
 }
 
 .home-nav-text {
-  color: black;
+  color: #2b2b2b;
 }
 
 .page-content {
@@ -138,4 +140,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+li {
+  margin-bottom: 8px;
 }
