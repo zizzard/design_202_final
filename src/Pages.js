@@ -10,26 +10,20 @@ import Page9 from "./Pages/Page9";
 import Page10 from "./Pages/Page10";
 import Page11 from "./Pages/Page11";
 import Page12 from "./Pages/Page12";
-import Page13 from "./Pages/Page13";
-import Page14 from "./Pages/Page14";
-import Page15 from "./Pages/Page15";
 
 const pageNames = [
-  "Environment Setup",
-  "Project Structure",
+  "Environment Set Up Pt. 1",
+  "Environment Set Up Pt. 2",
   "HTML Structure Tags",
-  "HTML Content Tags",
+  "HTML Internal Body Tags",
   "Introduction to CSS",
   "Important CSS Styles",
-  "HTML Table",
   "Flex Boxes",
-  "Introduction to JavaScript",
-  "HTML Forms",
-  "HTML Buttons",
+  "HTML Table",
   "Linking Pages",
   "Hosting",
-  "Tips & Other Resources",
-  "Closing",
+  "Web Development Tips",
+  "Other Resources",
 ];
 
 const options = [
@@ -46,9 +40,6 @@ const options = [
   { label: "10", value: 10 },
   { label: "11", value: 11 },
   { label: "12", value: 12 },
-  { label: "13", value: 13 },
-  { label: "14", value: 14 },
-  { label: "15", value: 15 },
 ];
 
 let pages = [
@@ -64,9 +55,6 @@ let pages = [
   <Page10 pageName={pageNames[9]} />,
   <Page11 pageName={pageNames[10]} />,
   <Page12 pageName={pageNames[11]} />,
-  <Page13 pageName={pageNames[12]} />,
-  <Page14 pageName={pageNames[13]} />,
-  <Page15 pageName={pageNames[14]} />,
 ];
 
 export { pages, options, pageNames };

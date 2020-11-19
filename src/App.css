@@ -1,26 +1,19 @@
 body {
-  /* background: #aa4b6b;
-  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); */
-  background: #222;
-}
-
-h1 {
-  text-align: center;
-}
-
-a:link {
-  text-decoration: none;
+  font-family: "Helvetica Neue";
+  font-size: 18px;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 20px;
+
   position: fixed;
-  bottom: 20px;
+  bottom: 0px;
   width: calc(100% - 40px);
+  background: #eee;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .nav-button,
@@ -31,12 +24,11 @@ a:link {
 
 .nav-button {
   border: none;
-  border-radius: 100px;
+  border-radius: 10px;
 
-  background: rgba(60, 60, 60, 1);
+  background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
 
-  color: white;
   font-size: 20px;
 }
 

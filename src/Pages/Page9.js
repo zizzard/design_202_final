@@ -1,29 +1,45 @@
 import React from "react";
-import PageHeader from "./PageHeader";
-
 import "./Pages.css";
+import HTMLHighlightText from "./HTMLHighlightText";
 
 export default function Page9({ pageName }) {
   return (
     <div className="page-container">
-      <PageHeader pageName={pageName} />
+      <h1>{pageName}</h1>
       <div className="page-copy">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit
-        quis lectus ut consequat. Aenean pulvinar, tellus nec euismod ultrices,
-        lorem nulla sollicitudin tellus, sit amet tristique purus quam porta
-        magna. Suspendisse sodales suscipit aliquet. Phasellus dapibus purus
-        lacus, in pellentesque nulla imperdiet non. Mauris et cursus neque.
-        Fusce id dolor interdum, congue magna sit amet, maximus elit. Donec
-        laoreet libero sapien, at fermentum mauris commodo vitae. Nullam nec
-        tristique orci, ac dignissim dolor. Integer nec suscipit turpis, a
-        mollis arcu. Nulla et velit non ante consequat placerat sit amet non
-        purus. Aliquam at fermentum mi. Donec feugiat mauris arcu, ut commodo ex
-        suscipit in. Integer dictum libero felis, in accumsan diam dictum in. Ut
-        laoreet, quam quis commodo porta, orci magna imperdiet est, ut
-        vestibulum arcu diam quis velit. Aenean quis leo commodo, semper lorem
-        in, ultricies leo. Donec quis tortor quam. Nunc facilisis libero ex, in
-        commodo nulla malesuada et. Proin vitae blandit ex. Ut blandit imperdiet
-        blandit. Nunc finibus nec tortor eu tempus. Nunc vel odio dui.
+        <p className="page-content-text">
+          While it is great to have a single page website, often we want to be
+          able to link together multiple pages together to create a more robust
+          website. The good news is that this is super easy to do. In the
+          skeleton code, we provided a file called{" "}
+          <p className="highlight-text">index.html</p> which was intended to be
+          the home page of your website.
+        </p>
+        <p className="page-body-text">
+          Let’s assume you want to create another page called{" "}
+          <p className="highlight-text">about</p>. First,{" "}
+          <p className="highlight-text">about.html</p> in the same location as
+          the <p className="highlight-text">index.html</p> file. Earlier we
+          learned about the anchor tag which can be used to link together pages.
+          If you want to include a link from the home page to the about page,
+          you can include the following anchor element in your home page:{" "}
+          <HTMLHighlightText text="<a href=“about.html”>About</a>" />. You can
+          do the same thing if you want to link back to the home page from the
+          about page. The only difference is you need to change the{" "}
+          <p className="highlight-text">href</p> attribute back to{" "}
+          <p className="highlight-text">index.html</p> to link to the home page.
+        </p>
+        <p className="page-body-text">
+          If you want to store your pages in different directories, you will
+          have to link them using their relative file paths. To learn more about{" "}
+          <a
+            className="page-link"
+            href="https://www.w3schools.com/html/html_filepaths.asp"
+          >
+            relative file paths click here
+          </a>
+          .
+        </p>
       </div>
     </div>
   );

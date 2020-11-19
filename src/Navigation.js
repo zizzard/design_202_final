@@ -22,7 +22,7 @@ export default function Navigation({ pageNumber, prev, next, change, home }) {
           onChange={change}
           value={options[pageNumber]}
         />
-        {pageNumber !== 15 ? (
+        {pageNumber !== 12 ? (
           <button onClick={next} className="nav-button">
             next
           </button>
